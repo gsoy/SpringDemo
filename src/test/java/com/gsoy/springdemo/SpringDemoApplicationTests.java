@@ -1,10 +1,10 @@
-package com.gsoy.demo;
+package com.gsoy.springdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class SpringDemoApplicationTests {
 
     @Test
     void contextLoads() {
