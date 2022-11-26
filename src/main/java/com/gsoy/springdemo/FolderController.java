@@ -18,7 +18,7 @@ public class FolderController {
     @GetMapping("/folder")
     @Operation(summary = "Klasör silme işlemi")
     public String greeting(@RequestParam(name = "id", required = false, defaultValue = "1") String id) throws IOException {
-return Delete(id);
+        return Delete(id);
     }
 
     private String Delete(String id) throws IOException {
