@@ -1,4 +1,4 @@
-package com.gsoy.springdemo;
+package com.gsoy.springdemo.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import nonapi.io.github.classgraph.json.JSONSerializer;

@@ -1,4 +1,4 @@
-package com.gsoy.springdemo;
+package com.gsoy.springdemo.controller;
 
 import com.gsoy.springdemo.storage.StorageFileNotFoundException;
 import com.gsoy.springdemo.storage.StorageService;
