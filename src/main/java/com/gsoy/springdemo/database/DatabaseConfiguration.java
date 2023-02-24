@@ -1,4 +1,4 @@
-package com.gsoy.springdemo;
+package com.gsoy.springdemo.database;
 
 import java.sql.SQLException;
 
@@ -29,6 +29,8 @@ public class DatabaseConfiguration {
     @Value("${jdbc.login_timeout_in_sec}")
     public int loginTimeout;
 
+
+
     @Bean
     public DataSource dataSource() throws SQLException {
 
@@ -49,10 +51,11 @@ public class DatabaseConfiguration {
     public PlatformTransactionManager transactionManager() {
         try {
             return new DataSourceTransactionManager(dataSource());
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
+
+
 }
